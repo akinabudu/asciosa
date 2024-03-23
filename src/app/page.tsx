@@ -18,7 +18,7 @@ export default function Home() {
             Old Students Association
           </span>
         <Link
-          href="/register"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdJsLeW_fUeHH3R_s7PKruTTWOpfWObCGwQ6THUjED8p9hbyg/viewform?usp=sf_link"
           className=" hover:border border-white rounded-lg  bg-purple-800 px-20 py-5 text-3xl mt-10"
         >
           Register
