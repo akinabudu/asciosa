@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import Network from "../../public/image1.jpg";
+import Logo from "../../public/logo.jpg";
+
 
 export default function Home() {
   return (
@@ -9,6 +11,7 @@ export default function Home() {
         <Image className="object-center" src={Network} alt="network" />
       </div>
       <div className="w-[50%] h-screen bg-[url('/cpurple-bg.png')] flex flex-col justify-center items-center brightness-75  text-3xl text-center leading-[2.9rem]  font-semibold  tracking-[.2rem] ">
+            <Image className="mb-5 w-20 h-20 rounded-md border border-gray-400" src={Logo} alt="logo" />
           <span className="text-white ">Welcome to</span>
           <span className="mt-5 font-light tracking-[.5rem]">
             All Saints&apos; College, Ibadan <br />
