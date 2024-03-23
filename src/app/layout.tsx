@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "ASCIOSA",
   description: "All Saints' College, Ibadan Old Students Association",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.jpg",
   },
 };
 
