@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import LogoImage  from "../../public/logo.jpg"
+import Akin  from "../../public/akinabudu.jpg"
+
 
 const ScrollingTestimonials = () => {
   return (
@@ -63,7 +65,7 @@ const TestimonialList = ({ list, reverse = false, duration = 50 }:TestimonialPro
           <div className="bg-slate-900 text-slate-50 p-4">
             <span className="block font-semibold text-lg mb-1">{testimonial.name}</span>
             <span className="block mb-3 text-sm font-medium">{testimonial.title}</span>
-            <span className="block text-sm text-slate-300">{testimonial.info}</span>
+            <span className="block text-[10px] text-slate-300">{testimonial.info}</span>
           </div>
           <span className="text-7xl absolute top-2 right-2 text-slate-700">
             &quot;
@@ -78,40 +80,40 @@ const testimonials = {
   top: [
     {
       id: 1,
-      img: LogoImage, // Replace with actual image URL
-      name: "Jen S.",
-      title: "Founder of XYZ",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam aspernatur esse corporis!",
+      img: Akin, // Replace with actual image URL
+      name: "Akin Abudu",
+      title: "Founder of Orglobal Tech Network || Software & Cloud Engineer",
+      info: "Attending ASCOL was an unforgettable experience. The supportive teachers and engaging curriculum truly prepared me for my academic journey ahead. I'm grateful for the friendships and memories made here that will last a lifetime.",
     },
     {
       id: 2,
-      img: LogoImage,      name: "Paul A.",
+      img: LogoImage,      name: "Damilola Adeboyejo",
       title: "Founder of XYZ",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis.",
+      info: "Choosing ASCOL was one of the best decisions I ever made. The diverse community and inclusive environment fostered a sense of belonging, allowing me to thrive both academically and personally. Thank you, ASCOL, for shaping me into the confident individual I am today.",
     },
     {
       id: 3,
-      img: LogoImage,      name: "Cindy J.",
+      img: LogoImage,      name: "Foyekemi Oyewole",
       title: "Founder of XYZ",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam.",
+      info: "I can't speak highly enough of ASCOL. From the dedicated staff who went above and beyond to the plethora of extracurricular activities available, every aspect of my time there was enriching. ASCOL isn't just a school; it's a community that feels like home.",
     },
     {
       id: 4,
-      img: LogoImage,      name: "Danica W.",
-      title: "Founder of XYZ",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor.",
+      img: LogoImage,      name: "Anjola Taiwo",
+      title: "Medical Lab Scientist",
+      info: "As a parent, entrusting my child's education to ASCOL was the best choice I could have made. The caring educators provided personalized attention, ensuring my child's academic success while nurturing their unique talents and interests. I couldn't be happier with the holistic education they received.",
     },
     {
       id: 5,
-      img: LogoImage,      name: "Peter H.",
+      img: LogoImage,      name: "Hannah Rotimi-Williams",
       title: "Founder of XYZ",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore.",
+      info: "Reflecting on my years at ASCOL, I'm filled with gratitude for the opportunities it provided. Whether it was participating in sports, leading clubs, or excelling academically, ASCOL empowered me to pursue my passions and set ambitious goals for the future.",
     },
     {
       id: 6,
-      img: LogoImage,      name: "Lanny B.",
-      title: "Founder of XYZ",
-      info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam aspernatur esse!",
+      img: LogoImage,      name: "Faith Adeniji",
+      title: "Software Developer",
+      info: "Enrolling in ASCOL was a transformative experience for me. The innovative teaching methods and emphasis on critical thinking not only prepared me for higher education but also instilled in me a lifelong love of learning. I'm forever indebted to ASCOL for shaping my intellectual curiosity.",
     },
   ],
   
