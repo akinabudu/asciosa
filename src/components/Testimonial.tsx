@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import LogoImage  from "../../public/logo.jpg"
 import Akin  from "../../public/akinabudu.jpg"
+import Faith  from "../../public/faithadeniji.jpeg"
 
 
 const ScrollingTestimonials = () => {
@@ -111,7 +112,7 @@ const testimonials = {
     },
     {
       id: 6,
-      img: LogoImage,      name: "Faith Adeniji",
+      img: Faith,      name: "Faith Adeniji",
       title: "Software Developer",
       info: "Enrolling in ASCOL was a transformative experience for me. The innovative teaching methods and emphasis on critical thinking not only prepared me for higher education but also instilled in me a lifelong love of learning. I'm forever indebted to ASCOL for shaping my intellectual curiosity.",
     },
